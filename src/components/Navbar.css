@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 24px;
+  background: #0f172a;
+  color: #ffffff;
+}
+
+.navbar h2,
+.navbar-user {
+  margin: 0;
+}
+
+.navbar-user {
+  margin-top: 6px;
+  color: #cbd5e1;
+}
+
+.navbar button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  background: #ffffff;
+  color: #0f172a;
+  cursor: pointer;
+}
