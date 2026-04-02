@@ -1,9 +1,12 @@
 .dashboard-page {
   min-height: 100vh;
+  background: #030303;
 }
 
 .dashboard-content {
   display: grid;
   gap: 24px;
   padding: 24px;
+  max-width: 1080px;
+  margin: 0 auto;
 }
