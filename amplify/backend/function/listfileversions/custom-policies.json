@@ -1,0 +1,19 @@
+[
+  {
+    "Action": [
+      "s3:ListBucketVersions"
+    ],
+    "Resource": [
+      "arn:aws:s3:::mydropboxbdb4766dceb441b4ac5877f46863c64abb967-dev"
+    ]
+  },
+  {
+    "Action": [
+      "s3:GetObject",
+      "s3:GetObjectVersion"
+    ],
+    "Resource": [
+      "arn:aws:s3:::mydropboxbdb4766dceb441b4ac5877f46863c64abb967-dev/*"
+    ]
+  }
+]

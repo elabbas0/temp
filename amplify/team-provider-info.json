@@ -17,6 +17,12 @@
       },
       "storage": {
         "s31d0ce31e": {}
+      },
+      "function": {
+        "listfileversions": {
+          "deploymentBucketName": "amplify-mydropbox-dev-bb967-deployment",
+          "s3Key": "amplify-builds/listfileversions-3857664a506453396c41-build.zip"
+        }
       }
     }
   }

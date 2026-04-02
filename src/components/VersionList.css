@@ -15,3 +15,49 @@
 .version-list-copy {
   color: #b8b8b8;
 }
+
+.version-list-items {
+  padding: 0;
+  margin: 16px 0 0;
+  list-style: none;
+}
+
+.version-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px;
+  margin-top: 12px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.version-list-version-label,
+.version-list-meta {
+  margin: 0;
+}
+
+.version-list-meta {
+  margin-top: 6px;
+  color: #b8b8b8;
+}
+
+.version-list-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.version-list-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 92px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.04);
+  color: #f5f5f5;
+  text-decoration: none;
+}

@@ -27,6 +27,31 @@
       "service": "Cognito"
     }
   },
+  "function": {
+    "listfileversions": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_listfileversions_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "listfileversions"
+        }
+      ]
+    },
+    "AMPLIFY_function_listfileversions_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "listfileversions"
+        }
+      ]
+    }
+  },
   "storage": {
     "s31d0ce31e": {
       "dependsOn": [],

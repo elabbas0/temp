@@ -23,11 +23,10 @@ export async function uploadFile(file) {
   }
 
   const safeName = sanitizeFileName(file.name);
-  const storedName = `${Date.now()}-${safeName}`;
 
   // this keeps every user inside their own private s3 folder
   const uploadTask = uploadData({
-    path: ({ identityId }) => `private/${identityId}/${filesPrefix}${storedName}`,
+    path: ({ identityId }) => `private/${identityId}/${filesPrefix}${safeName}`,
     data: file,
     options: {
       contentType: file.type || 'application/octet-stream',
